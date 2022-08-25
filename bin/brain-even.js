@@ -16,8 +16,8 @@ let countTrueAnswer = 0;
 
 while (countTrueAnswer !== 3) {
   const randomNumber = Math.round(Math.random() * 20);
-
   console.log(`Question: ${randomNumber}`);
+
   const answerUser = readlineSync.question('Your answer: ');
 
   if (isEven(randomNumber) === answerUser) {
@@ -25,8 +25,10 @@ while (countTrueAnswer !== 3) {
     countTrueAnswer += 1;
   } else {
     console.log(`'${answerUser}' is wrong answer ;(. Correct answer was '${isEven(randomNumber)}'.\nLet's try again, ${name}!`);
-    countTrueAnswer = 0;
+    break;
+  }
+
+  if (countTrueAnswer === 3) {
+    console.log(`Congratulations, ${name}!`);
   }
 }
-
-console.log(`Congratulations, ${name}!`);
