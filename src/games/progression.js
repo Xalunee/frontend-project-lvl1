@@ -1,8 +1,8 @@
 import getGame from '../index.js';
 
-const randomInteger = () => {
+const randomInteger = (minInteger) => {
   let int = Math.round(Math.random() * 10);
-  while (int < 5) {
+  while (int < minInteger) {
     int = Math.round(Math.random() * 10);
   }
 
@@ -15,10 +15,10 @@ const gameProgression = () => {
   const results = [];
 
   for (let i = 0; i < 3; i += 1) {
-    const progressionLength = randomInteger();
+    const progressionLength = randomInteger(5);
     const hiddenElementIndex = Math.round(Math.random() * progressionLength);
     let number = Math.round(Math.random() * 20);
-    const step = Math.round(Math.random() * 5);
+    const step = randomInteger(1);
 
     let expression = '';
 
