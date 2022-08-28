@@ -16,20 +16,20 @@
 
 Игра - Проверка на четность
 
-![alt text](./src/images/brain-even.PNG)
+![](./src/images/brain-even.PNG)
 
 Игра - Калькулятор
 
-![alt text](./src/images/brain-calc.PNG)
+![](./src/images/brain-calc.PNG)
 
 Игра - Наибольший общий делитель
 
-![alt text](./src/images/brain-gcd.PNG)
+![](./src/images/brain-gcd.PNG)
 
 Игра - Арифметическая прогрессия
 
-![alt text](./src/images/brain-progression.PNG)
+![](./src/images/brain-progression.PNG)
 
 Игра - Простое ли число?
 
-![alt text](./src/images/brain-prime.PNG)
+![](./src/images/brain-prime.PNG)
