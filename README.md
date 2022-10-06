@@ -14,20 +14,20 @@
 
 ### Игра - Проверка на четность
 
-![](https://snipboard.io/x7u2ry.jpg)
+![](https://snipboard.io/Z06H7D.jpg)
 
 ### Игра - Калькулятор
 
-![](https://snipboard.io/QjriCB.jpg)
+![](https://snipboard.io/kJ6xLv.jpg)
 
 ### Игра - Наибольший общий делитель
 
-![](https://snipboard.io/MvXLGS.jpg)
+![](https://snipboard.io/cnVgLI.jpg)
 
 ### Игра - Арифметическая прогрессия
 
-![](https://snipboard.io/3EFemR.jpg)
+![](https://snipboard.io/qc6mK0.jpg)
 
 ### Игра - Простое ли число?
 
-![](https://snipboard.io/IjL7ag.jpg)
+![](https://snipboard.io/WF6E0H.jpg)
